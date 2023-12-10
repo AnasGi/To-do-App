@@ -1,0 +1,83 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tasks_cont{
+    padding:3%;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+.info{
+    color: white;
+}
+.list_of_tasks{
+    overflow-y: scroll;
+    height: 45vh;
+}
+
+.list_of_tasks>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(255, 251, 245);
+    margin: 5px 0px 5px 0px;
+    transition: .3s;
+}
+
+.list_of_tasks>div>div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.list_of_tasks>div p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.see_more {
+    color: white;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(191, 175, 175, 0.49);
+    border-radius: 10px;
+}
+
+.form>input{
+    height: 50px;
+    width: 70%;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    background-color: rgba(253, 246, 236, 0.72);
+    border: 0;
+    padding-left: 2%;
+}
+.form>input:focus{
+    background-color: white;
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+}
+#dlt {
+   width: 30px;
+   height: 30px;
+}
+.notasks {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
