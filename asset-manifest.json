@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/https://github.com/AnasGi/To-do-App.git/static/css/main.2b5046f3.css",
+    "main.js": "/https://github.com/AnasGi/To-do-App.git/static/js/main.9164ac1a.js",
+    "static/media/bg2.jpg": "/https://github.com/AnasGi/To-do-App.git/static/media/bg2.07b28608181325f4f718.jpg",
+    "index.html": "/https://github.com/AnasGi/To-do-App.git/index.html",
+    "main.2b5046f3.css.map": "/https://github.com/AnasGi/To-do-App.git/static/css/main.2b5046f3.css.map",
+    "main.9164ac1a.js.map": "/https://github.com/AnasGi/To-do-App.git/static/js/main.9164ac1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b5046f3.css",
+    "static/js/main.9164ac1a.js"
+  ]
+}
