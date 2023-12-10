@@ -23,7 +23,7 @@ export default function ToDoList(props){
                 </div>
                 <form name='f1'>
                     <div className='list_of_tasks' onScroll={()=>setSee('▼')}>
-                        {todo.length>0 ? todo.map((td,index)=><div key={index}><input type='checkbox' id='dlt' onChange={check_task}/><div><p>{td}</p></div></div>) : <h2 className='notasks'>No tasks</h2>} {/*if no task is available we show no tasks */}
+                        {todo.length>0 ? todo.map((td,index)=><div key={index}><span>{index+1}</span><input type='checkbox' id='dlt' onChange={check_task}/><div><p>{td}</p></div></div>) : <h2 className='notasks'>No tasks</h2>} {/*if no task is available we show no tasks */}
                     </div>
                 </form>
                 <p className='see_more'>{see}</p>
